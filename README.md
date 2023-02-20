@@ -20,7 +20,7 @@ This is aN E-commerce website where users can come and purchase goods available 
 
 ### Links
 
-- Live Site URL:(https://peterforyou.github.io/word-scramble-game/)
+- Live Site URL:(https://peterforyou.github.io/E-commerce-website/)
 
 ### Built with
 
