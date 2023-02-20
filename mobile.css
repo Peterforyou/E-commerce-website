@@ -1,0 +1,136 @@
+#navbar {
+    padding: 2rem 0rem;
+}
+.px-md {
+    padding: 5rem 3rem;
+}
+#navbar ul {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    top: 0rem;
+    right: -50rem;
+    line-height: 4rem;
+    font-size: 3rem;
+    background-color: var(--white-color);
+    height: 100vh;
+    width: 50%;
+    padding-top: 6rem;
+    transition: all .5s;
+}
+#navbar ul.open {
+    right: 0rem;
+} 
+#navbar ul li a {
+    color: var(--ash);
+    padding: 1rem 1rem;
+    margin-left: 2rem;
+}
+.close-icon {
+    display: block;
+    position: absolute;
+    top: 1rem;
+    right: 70%;
+    font-size: 3rem;
+    color: #222;
+    z-index: 99999999;
+}
+.menu-display {
+    display: block;
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    font-size: 2.5rem;
+}
+.menu-display a .cart-smd {
+    color: var(--light-blue-color);
+}
+.cart-smd:hover {
+    transform: rotateZ(360deg);
+    transition: all .6s;
+}
+.cart {
+    display: none;
+ }
+.menu-display i {
+    color: var(--ash);
+    margin: 0rem 1rem;
+}
+#footer .footer-logo img {
+    width: 100%;
+    position: absolute;
+    top: 105rem;
+    left: -3rem;
+}
+#footer .footer-cover {
+    height: 28rem;
+}
+form {
+    display: block;
+    margin-top: 2rem;
+}
+.sign-up{
+    width: 70%;
+    margin: 2rem 0rem;
+    border-radius: 1rem;
+}
+form input {
+    width: 90%;
+}
+.banner-two-content {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.banner-content {
+    width: 100%;
+    min-width: 30rem;
+    line-height: 4rem;
+}
+.banner-content h1 {
+    font-weight: 900;
+    color: var(--white-color);
+}
+.product-content {
+    width: 100%;
+}
+#repair h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+#product h1 {
+    font-size: 4rem;
+}
+.service-cover .service-box {
+    width: 45%;
+}
+.service-cover {
+    justify-content: space-between;
+    gap: 3rem 1rem;
+}
+.showcase-menu h4 {
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+.showcase-menu h1 {
+    font-size: 4rem;
+}
+.showcase-menu p {
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+.showcase-menu {
+    background: url(./images/last_three_2-removebg-preview.png) no-repeat center ;
+    height: 90ch;
+    line-height: 5rem;
+}
+#navbar .logo {
+    width: 7rem;
+    position: absolute;
+    top: 0;
+    left: 1rem;
+}
