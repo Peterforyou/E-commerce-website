@@ -129,7 +129,7 @@ form input {
     line-height: 5rem;
 }
 .px-none {
-    padding: 0rem 0rem 0rem 2.5rem;
+    padding: 0rem 1rem;
 }
 #navbar .logo {
     width: 7rem;
