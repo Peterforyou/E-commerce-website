@@ -128,6 +128,9 @@ form input {
     height: 90ch;
     line-height: 5rem;
 }
+.px-none {
+    padding: 0rem 0rem 0rem 2.5rem;
+}
 #navbar .logo {
     width: 7rem;
     position: absolute;
